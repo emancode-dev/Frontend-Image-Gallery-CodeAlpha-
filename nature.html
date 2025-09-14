@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Image Gallery</title>
+	
+</head>
+
+<body>
+<div class="block">
+	<div class="sidebar">
+	<h1>Gallery</h1>
+	<p>Browse through our collection of featured images.
+	Click any picture to see more details.</p>
+	<div class="filters">
+  <button onclick="window.location.href='index.html'">All</button>
+  <button onclick="window.location.href='nature.html'">Nature</button>
+  <button onclick="window.location.href='architecture.html'">Architecture</button>
+  <button onclick="window.location.href='travel.html'">Travel</button>
+  <button onclick="window.location.href='food.html'">Food</button>
+  <button onclick="window.location.href='general.html'">General</button>
+</div>
+	<div class="block1">
+		<a href="page1.html"><img src="image1.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image5.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image6.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image7.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image8.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image1.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image2.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image3.jpg" alt="Image 1"></a>
+		<a href="page1.html"><img src="image6.jpg" alt="Image 1"></a>
+		</div>
+	</div>
+</div>
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div class="lightbox-controls">
+    <button id="prevBtn">⟨ Prev</button>
+    <button id="nextBtn">Next ⟩</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
