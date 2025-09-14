@@ -25,7 +25,7 @@ It is a **responsive Image Gallery** built using **HTML, CSS, and JavaScript** w
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/emancode-dev/Frontend-Image-Gallery-CodeAlpha.git
+git clone https://github.com/emancode-dev/Frontend-Image-Gallery-CodeAlpha-.git
 2️⃣ Open in Browser
 
 Simply open index.html in your preferred browser to view the project.
